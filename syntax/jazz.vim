@@ -8,7 +8,7 @@ syntax keyword jazzBoolean true false
 syntax keyword jazzBoolean bool 
 syntax keyword jazzKeyword break continue else if for return in switch while inline
 syntax keyword jazzKeyword var init deinit import module
-highlight link keyword jazzKeyword Keyword 
+highlight link jazzKeyword Keyword 
 
 syntax match jazzFunction "\zs\(\k\w*\)*\s*\ze"
 highlight link jazzFunction jazzFunction
@@ -21,9 +21,9 @@ syntax keyword jazzType float float32 float64
 syntax keyword jazzType String StringRef char Array Map
 highlight link jazzType Type 
 
-syntax match jazzOperator "\v*"
+syntax match jazzOperator "\v\*"
 syntax match jazzOperator "\v/"
-syntax match jazzOperator "\v%"
+syntax match jazzOperator "\v\%"
 syntax match jazzOperator "\v\+"
 syntax match jazzOperator "\v\-"
 syntax match jazzOperator "\v\^"
