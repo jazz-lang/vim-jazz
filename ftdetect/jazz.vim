@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.jazz setFileType jazz
+autocmd BufNewFile,BufRead *.jazz setfiletype jazz
