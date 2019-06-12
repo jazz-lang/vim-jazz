@@ -44,10 +44,9 @@ highlight link jazzStr String
 highlight link jazzNumber String
 
 syntax region jazzComment start="//" end="$"
-syntax region jazzMComment start="/*" end="*/"
 
 highlight link jazzComment Comment 
-highlight link jazzMComment Comment
+
 
 let b:current_syntax = "jazz"
 
